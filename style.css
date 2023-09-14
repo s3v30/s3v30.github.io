@@ -1,0 +1,901 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+/* Our navigation bar start from here  */
+header .container {
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-width: 100%;
+    border-bottom: 1px solid rgb(206, 206, 206);
+}
+
+
+/* ************************************ */
+/* Left Portion of the header  */
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+
+.left img {
+    margin-left: 50px;
+    border-radius: 50%;
+    border: 2px solid red;
+    width: 40px;
+    height: 40px;
+}
+
+
+
+.left img:hover {
+    border: 2px solid rgb(255, 255, 255);
+}
+
+
+
+.left p {
+    padding-left: 10px;
+    color: red;
+    font-size: 16px;
+}
+
+.left p:hover {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+
+}
+
+
+/* Left Portion of the header  */
+
+/* ************************************ */
+
+/* right portion of the header */
+
+.right {
+    display: flex;
+    align-items: center;
+}
+
+.right .contact {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 15px;
+}
+
+.right .contact:hover {
+
+    color: rgb(255, 0, 0);
+
+}
+
+.right .blog {
+    color: white;
+    text-decoration: none;
+    margin-right: 50px;
+    font-size: 15px;
+}
+
+.right .blog:hover {
+
+    color: rgb(255, 0, 0);
+
+}
+
+/* right portion of the header */
+@media(max-width:500px) {
+
+    /* left side media query  */
+    .left img {
+
+        border-radius: 50%;
+        border: 2px solid red;
+        width: 30px;
+        height: 30px;
+        margin-left: 20px;
+    }
+
+    .left p {
+        color: red;
+        font-size: 12px;
+    }
+
+    /* left side media query  */
+
+    /* right side media querry  */
+
+    .right .contact {
+        color: white;
+        text-decoration: none;
+        font-size: 12px;
+        margin-right: 10px;
+    }
+
+
+
+    .right .blog {
+        color: white;
+        text-decoration: none;
+        font-size: 12px;
+        margin-right: 20px;
+    }
+
+    /* right side media querry  */
+
+}
+
+/* Our navigation bar completes here  */
+
+
+
+
+
+
+
+
+
+
+/* Banner portion starts from here  */
+
+.banner {
+    text-align: center;
+    background-image: url(./img/bb.png);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+   
+    padding-top: 500px;
+padding-bottom: 170px;
+
+}
+
+
+.banner .main h1 {
+
+    color: rgb(255, 255, 255);
+    font-size: 128px;
+    font-weight: 300;
+    font-family: monospace;
+
+}
+
+.banner .main .para p {
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: lighter;
+    font-family: monospace;
+
+}
+
+.banner .main .para span {
+    color: red;
+    font-family: monospace;
+}
+
+
+
+
+
+.banner .main ul li {
+
+
+    font-size: 35px;
+    margin-top: 50px;
+    text-decoration: none;
+    color: red;
+    border: 2px solid red;
+    background-color: Transparent;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 40px;
+    font-family: monospace;
+    display: inline-block;
+   
+    
+}
+
+.banner .main ul li:hover {
+
+    border: 2px solid rgb(190, 190, 190);
+}
+
+.banner .main ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+}
+
+.banner .main ul li a:hover {
+    text-decoration: none;
+    color: rgb(190, 190, 190);
+
+}
+
+
+@media(max-width:1663px){
+
+
+
+    .banner .main ul li {
+
+
+        font-size: 35px;
+      
+    }
+
+}
+@media(max-width:1663px){
+
+
+
+    .banner .main ul li {
+
+        font-size: 35px;
+    }
+    .banner .main h1 {
+
+      
+        font-size: 100px;
+        font-weight: 300;
+        font-family: monospace;
+    
+    }
+
+
+}
+@media(max-width:1200px){
+
+
+
+    .banner .main ul li {
+
+        font-size: 25px;
+    }
+    .banner .main h1 {
+
+      
+        font-size: 80px;
+        font-weight: 300;
+        font-family: monospace;
+    
+    }
+
+    .banner .main .para p {
+        margin-top: 30px;
+        color: rgb(255, 255, 255);
+        font-size: 40px;
+        font-weight: lighter;
+        font-family: monospace;
+    
+    }
+
+
+}
+@media(max-width:857px){
+
+
+
+    .banner .main ul li {
+
+        font-size: 25px;
+    }
+    .banner .main h1 {
+
+      
+        font-size: 80px;
+        font-weight: 300;
+        font-family: monospace;
+    
+    }
+
+    .banner .main .para p {
+        margin-top: 30px;
+        color: rgb(255, 255, 255);
+        font-size: 40px;
+       
+    
+    }
+
+    .banner {
+       
+     
+     
+        padding-top: 300px;
+    padding-bottom: 190px;
+    
+    }
+
+
+}
+
+@media(max-width:659px){
+
+
+
+    .banner .main ul li {
+
+        font-size: 20px;
+    }
+    .banner .main h1 {
+
+      
+        font-size: 40px;
+        font-weight: 300;
+        font-family: monospace;
+    
+    }
+
+    .banner .main .para p {
+        margin-top: 30px;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+       
+    
+    }
+
+    .banner {
+       
+        padding-top: 300px;
+    padding-bottom:  270px;
+    
+    }
+
+
+}
+
+/* Banner end here  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* whois portion starts from here  */
+
+.whois .container {
+    background-image: url(./img/Whoisbackground.png) ;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    padding-top: 9px;
+    padding-bottom: 90px;
+    background-repeat: no-repeat;
+   
+    
+}
+
+.whois .main .logo {
+   display: flex;
+   align-items: center;
+   
+   display: inline-block;
+}
+.whois .main .logo img {
+   width: 190px;
+   height: 190px;
+}
+
+
+.whois .main .text h2 {
+    font-size: 80px;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 35px;
+    font-family: monospace;
+}
+
+.whois .main .text span{
+    color: red;
+}
+
+.whois .main .text p{
+    color: white;
+    font-size: 23px;
+    font-family: monospace;
+}
+
+
+.whois .options {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 64px;
+}
+
+.whois .options .left {
+   display: block;
+   border-right: 3px solid rgb(255, 255, 255);
+   padding-right: 370px;
+}
+
+
+.whois .options .right {
+   display: block;
+}
+
+.whois .options .left h2 {
+    font-size: 40px;
+    color: rgb(255, 0, 0);
+    font-family: monospace;
+    text-transform: uppercase;
+}
+
+.whois .options .right h2 {
+    font-size: 40px;
+    color: rgb(255, 0, 0);
+    font-family: monospace;
+    text-transform: uppercase;
+}
+
+
+.whois .options .left a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: white;
+    padding-top: 10px;
+    font-family: monospace;
+    transform: scale(1.10);
+    transition: all Is ease;
+}
+
+.whois .options .right a {
+   display: block;
+   text-align: center;
+   text-decoration: none;
+   font-size: 25px;
+   text-transform: uppercase;
+   color: white;
+   padding-top: 10px;
+   font-family: monospace;
+   transform: scale(1.05);
+   transition: all Is ease;
+}
+.whois .options .right a:hover {
+color: rgb(184, 0, 0);
+cursor: pointer;
+}
+.whois .options .left a:hover {
+color: rgb(184, 0, 0);
+cursor: pointer;
+}
+
+@media(max-width:1750px){
+    .whois .options .left {
+        display: block;
+        border-right: 3px solid rgb(255, 255, 255);
+        padding-right: 250px;
+     }
+
+}
+@media(max-width:1396px){
+    .whois .options .left {
+        display: block;
+        border-right: 3px solid rgb(255, 255, 255);
+        padding-right: 200px;
+     }
+
+}
+@media(max-width:1132px){
+    .whois .options .left {
+        display: block;
+        border-right: 3px solid rgb(255, 255, 255);
+        padding-right: 150px;
+     }
+
+}
+@media(max-width:998px){
+    .whois .options .left {
+        display: block;
+        border-right: 3px solid rgb(255, 255, 255);
+        padding-right:0px;
+        border: none;
+     }
+
+}
+
+
+
+
+
+
+@media(max-width:1250px){
+
+    .whois .main .logo img {
+        width: 140px;
+        height: 140px;
+     }
+     
+    .whois .main .text h2 {
+        font-size: 60px;
+        color: white;
+        padding-top: 40px;
+        padding-bottom: 25px;
+        font-family: monospace;
+    }
+    
+    .whois .main .text p{
+        color: white;
+        font-size: 18px;
+        font-family: monospace;
+    }
+    
+    .whois .options .left h2 {
+        font-size: 40px;
+    }
+    
+    .whois .options .right h2 {
+        font-size: 40px;
+    }
+    
+    .whois .options .left a {
+        display: block;
+        text-align: center;
+        font-size: 25px;
+        padding-top: 10px;
+    }
+
+    .whois .options .right a {
+       display: block;
+       text-align: center;
+       font-size: 25px;
+       padding-top: 10px;
+    }
+
+}
+
+
+
+@media(max-width:990px){
+
+
+    .whois .options {
+        display: block;
+        padding-top: 30px;
+    }
+
+    .whois .main .logo img {
+        width: 140px;
+        height: 140px;
+     }
+    
+    .whois .main .text h2 {
+        font-size: 40px;
+        color: white;
+        padding-top: 40px;
+        padding-bottom: 25px;
+        font-family: monospace;
+    }
+
+    .whois .main .text p{
+        color: white;
+        font-size: 14px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    
+    .whois .options .left h2 {
+        font-size: 30px; 
+    }
+    
+    .whois .options .right h2 {
+        font-size: 30px;
+        padding-top: 40px;
+    }
+    
+    .whois .options .left a {
+        display: block;
+        text-align: center;
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    
+    
+    .whois .options .right a {
+       display: block;
+       text-align: center;
+       font-size: 20px;
+       padding-top: 10px;
+    }
+
+}
+
+
+
+@media(max-width:506px){
+
+
+    .whois .options {
+        display: block;
+        padding-top: 30px;
+    }
+
+
+
+    .whois .main .logo img {
+        width: 110px;
+        height: 110px;
+     }
+     
+
+
+
+    .whois .main .text h2 {
+        font-size: 25px;
+        color: white;
+        padding-top: 40px;
+        padding-bottom: 25px;
+        font-family: monospace;
+    }
+    
+
+
+    .whois .main .text p{
+        color: white;
+        font-size: 14px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    
+
+
+    .whois .options .left h2 {
+        font-size: 30px; 
+    }
+    
+    .whois .options .right h2 {
+        font-size: 30px;
+        padding-top: 40px;
+    }
+    
+    
+    .whois .options .left a {
+        display: block;
+        text-align: center;
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    
+    
+    .whois .options .right a {
+       display: block;
+       text-align: center;
+       font-size: 20px;
+       padding-top: 10px;
+       
+    }
+
+}
+
+/* whois portion ends from here  */
+
+/* cards protion starts from here  */
+
+
+
+.cards {
+    display: flex;
+    background: url(./img/bg3.png);
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 130px;
+}
+
+.card {
+   background: white;
+   width: 300px;
+   font-family: monospace;
+   
+   margin-top: 130px;
+   margin-left: 100px;
+   border-radius: 10px;
+}
+
+.cards :first-child{
+    margin-left: 0px;
+}
+
+.card-image {
+    height: 170px;
+    margin-bottom: 20px;
+    background-size: cover;
+    border-radius: 10px 10px 0 0;
+
+}
+
+
+.car-1 {
+    background: url(./img/pexels-lumn-167684.jpg);
+    background-size: cover;
+}
+.car-2 {
+    background: url(./img/pexels-lumn-167684.jpg);
+    background-size: cover;
+}
+.car-3 {
+    background: url(./img/pexels-lumn-167684.jpg);
+    background-size: cover;
+}
+
+.card h3{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.card p{
+    padding: 15px;
+    font-size: 16px;
+}
+
+.card a {
+    background-color: red;
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    font-family: monospace;
+    
+border-radius: 15px;
+
+}
+.card a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+}
+
+.card:hover {
+    background-color: black;
+    color: white;
+    transform: scale(1.05);
+    transition: all Is ease;
+    cursor: pointer;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+@media(max-width:1090px){
+   .cards .card {
+        margin-left: 20px;
+    }
+
+    .cards {
+        padding-bottom: 50px;
+    }
+
+    .card {
+        margin-top: 50px;
+        margin-left: 100px;
+     }
+}
+@media(max-width:640px){
+   .cards .card {
+        margin-left: 10px;
+    }
+}
+@media(max-width:600px){
+   .cards .card {
+        margin-left: 1px;
+    }
+}
+
+/* cards section ends here   */
+
+
+
+
+
+
+
+
+
+
+
+/* foter start s from here  */
+footer .container .main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+
+}
+
+footer .left-footer p {
+    font-size: 16px;
+    font-family: monospace;
+    text-transform: uppercase;
+    margin-left: 40px;
+    cursor: pointer;
+}
+footer .left-footer p abbr {
+   text-decoration: none;
+}
+footer .right-footer a {
+    font-size: 16px;
+    font-family: monospace;
+    text-transform: uppercase;
+    margin-right: 40px;
+    text-decoration: none;
+    color: white;
+}
+footer .right-footer a:hover {
+   
+    color: rgb(255, 0, 0);
+}
+footer .right-footer a:first-child {
+    margin-right: 20px;
+
+}
+
+footer .right-footer a i {
+   
+padding-right: 10px;
+}
+
+@media(max-width:850px){
+
+    footer .container .main {
+        display: block;
+        justify-content: center;
+    text-align: center;
+    }
+
+    footer .left-footer p {
+        margin-left: 0px;
+    }
+
+    footer .right-footer a {
+        margin-top: 20px;
+        margin-right: 0px;
+    }
+}
+@media(max-width:500px){
+
+    
+
+    footer .right-footer a {
+        display: block;
+        margin-top: 5px;
+        margin-right: 0px;
+    }
+}
+
+/* FOOTER MEDIA QUERRY ENDS HERE  */
